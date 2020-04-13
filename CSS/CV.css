@@ -1,0 +1,174 @@
+/* Parte estilizada da minha página (Background) */
+
+body{
+    background-color: #F3DFC1
+}
+
+html {
+    zoom: 0.9;
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+  
+/* Parte estilizada da minha página (Letras,bordas, etc) */
+
+header{
+      background-color: #F3DFC1;
+      font-size:  40px;
+      text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 20px 30px 20px 30px;  
+}
+  
+/* Separação */
+
+#homelink{
+    color: #18020C;
+}
+  
+/* Separação */
+
+#hrespecial{
+    opacity: 0;
+}
+
+/* Separação */
+  
+#pagina{
+    display: flex;
+    margin: 30px;
+}
+
+/* Separação */
+  
+#ID-perfil{
+    flex: 1;
+}
+
+/* Separação */
+
+#curriculo{
+    margin: 30px;
+    flex: 3;
+}
+
+/* Separação */
+  
+.profile{
+      border-radius: 50%;
+      border-style: solid;
+      border-color: #18020C;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-position: center;
+}
+
+/* Separação */
+  
+hr{
+      border: 0.5px solid #18020C;
+      margin: 20px 0px 20px;
+      position: static;
+}
+ 
+/* Separação */
+  
+.horizontal{
+      border: 1px solid #18020C;
+      margin: 0px 40px 0px 40px;
+}
+
+/* Separação */
+  
+#dadosPessoais{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align-last: center;
+    color: #46494C;
+}
+
+/* Separação */
+  
+.tipoMenu{
+    font-weight: 5000;
+    text-align: left;
+}
+
+/* Separação */
+
+.tipodescricao{
+    font-weight: 500;
+}
+
+/* Separação */
+  
+footer{
+    color: #18020C;
+    font-size: 5vw;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+/* Separação */
+  
+#curriculo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #46494C;
+}
+
+/* Separação */
+  
+a:link {
+      text-decoration: none;
+      color: #18020C;
+}
+
+/* Separação */
+
+.timeline{
+      display: flex;
+}
+
+/* Separação */
+  
+.educ{
+      margin: inherit;
+      text-align-last: center;
+      font-size: 1vw;
+      flex: 25%;
+      margin-bottom: 1vw;
+}
+
+/* Separação */
+  
+@media screen and (min-width: 800px) {
+      footer {
+         font-size: 20px;
+         color: #18020C;
+         text-align: center;
+      }
+      header {
+          font-size: 50px;
+      } 
+      h1{
+          font-size: 20px;
+      }
+      b{
+          font-size: 20px;
+      }
+      i{
+          font-size: 20px;
+      }
+      p{
+          font-size: 20px;
+      }
+}
+  
+  
+  
+  
+  
+  
